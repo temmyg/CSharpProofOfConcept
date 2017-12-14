@@ -10,6 +10,28 @@ namespace CSLanguageGeneralProof
     {
         static void Main(string[] args)
         {
+            Organization org = new Company();
+        }
+    }
+
+    class Organization
+    {
+        public Organization()
+        {
+
+        }
+    }
+
+    class Company : Organization
+    {
+        public Company() : this(33)
+        {
+
+        }
+
+        public Company(int staff)
+        {
+            
         }
     }
 }
